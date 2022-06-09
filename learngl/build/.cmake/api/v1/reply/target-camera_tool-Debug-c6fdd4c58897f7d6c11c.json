@@ -1,0 +1,107 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "camera/libcamera_tool.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"camera/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -O2 -g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/shader_utils/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/modeling/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/camera/inc"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "camera_tool::@f1ff328599b7b689f34c",
+	"name" : "camera_tool",
+	"nameOnDisk" : "libcamera_tool.a",
+	"paths" : 
+	{
+		"build" : "camera",
+		"source" : "camera"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camera/src/fp_camera.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

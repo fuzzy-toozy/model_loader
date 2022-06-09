@@ -1,0 +1,131 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "shader_utils/libshader_tool.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"shader_utils/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -O2 -g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/shader_utils/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/modeling/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fuzzy/projects/opengl_code/learngl/camera/inc"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "shader_tool::@5dd5ad586e576ee8569f",
+	"name" : "shader_tool",
+	"nameOnDisk" : "libshader_tool.a",
+	"paths" : 
+	{
+		"build" : "shader_utils",
+		"source" : "shader_utils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "shader_utils/src/exceptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "shader_utils/src/program.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "shader_utils/src/shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "shader_utils/src/shader_tool.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
