@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshader_tool.a  CMakeFiles/shader_tool.dir/src/exceptions.o CMakeFiles/shader_tool.dir/src/program.o CMakeFiles/shader_tool.dir/src/shader.o CMakeFiles/shader_tool.dir/src/shader_tool.o
-/usr/bin/ranlib libshader_tool.a

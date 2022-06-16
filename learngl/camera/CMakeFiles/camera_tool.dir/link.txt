@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcamera_tool.a  CMakeFiles/camera_tool.dir/src/fp_camera.o
-/usr/bin/ranlib libcamera_tool.a

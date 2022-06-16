@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgraphic_control.a  CMakeFiles/graphic_control.dir/src/program.cpp.o
+/usr/bin/ranlib libgraphic_control.a

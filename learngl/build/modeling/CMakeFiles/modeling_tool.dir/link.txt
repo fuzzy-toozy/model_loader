@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmodeling_tool.a  CMakeFiles/modeling_tool.dir/src/mesh.o CMakeFiles/modeling_tool.dir/src/model.o
-/usr/bin/ranlib libmodeling_tool.a
