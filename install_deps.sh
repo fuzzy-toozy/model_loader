@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 set -e
-sudi apt install build-essential
+sudo apt install build-essential
 sudo apt install cmake
 sudo apt install libglu1-mesa-dev
-sudo apt install libxrandr-de
+sudo apt install libxrandr-dev
 sudo apt install libxrandr-dev
 sudo apt install libxinerama-dev
 sudo apt install libxcursor-dev
